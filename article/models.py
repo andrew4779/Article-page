@@ -46,3 +46,4 @@ class Bookmark(models.Model):
     def __str__(self):
         username = self.user.username
         return username.upper() + " ------ " + self.article.title
+    
