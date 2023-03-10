@@ -3,7 +3,6 @@ from django.db import models
 from tinymce.models import HTMLField
 
 
-
 # For user relationship with reviews
 from django.contrib.auth.models import User
 
